@@ -4,4 +4,4 @@
 {{mod_cc(counter, -1) if v else ""}}
 -title "{{f"{name} {'uses' if v else 'tried to use'} {counter}!"}}"
 -desc "{{f"{'success!' if v else 'failed!'}"}}"
--f "{{counter}}|{{'◉'*get_cc(counter) + '〇'*(get_cc_max(counter)-get_cc(counter))}}"
+-f "{{counter}}|{{cc_str(counter)}}"
