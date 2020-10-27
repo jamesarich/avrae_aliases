@@ -1,0 +1,5 @@
+!servalias inspiration embed
+{{counter="Inspiration"}}
+{{mod_cc(counter, -1, True)}}
+-title "<name> Uses {{counter}}."
+-f "{{counter}}|{{'◉'*get_cc(counter) + '〇'*(get_cc_max(counter)-get_cc(counter))}}"
