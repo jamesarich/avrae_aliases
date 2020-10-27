@@ -1,7 +1,0 @@
-!servalias lucky embed
-{{counter="Lucky"}}
-{{v=cc_exists(counter) and get_cc(counter)}}
-{{mod_cc(counter, -1) if v else ""}}
--title "{{f"{name} {'uses' if v else 'tried to use'} {counter}!"}}"
--desc "{{f"{'success!' if v else 'failed!'}"}}"
--f "{{counter}}|{{cc_str(counter)}}"

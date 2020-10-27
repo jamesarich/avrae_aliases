@@ -1,1 +1,0 @@
-!snippet sneak -d1 "{{ceil(int(RogueLevel)/2)}}d6 [Sneak Attack]"
